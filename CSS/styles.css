@@ -1,0 +1,265 @@
+
+/* NavBar */
+
+li {
+  padding:0 6%;
+  font-size: 1.5rem;
+  color: white;
+}
+
+.navbar {
+  text-align: center;
+
+}
+
+
+
+
+
+
+
+
+/* Title */
+
+#title {
+  padding: 3%;
+  padding-top: 0;
+  height: 50rem;
+  background-image: url(https://www.wallpaperflare.com/static/552/777/170/wood-grain-structure-texture-wallpaper-preview.jpg);
+  background-size: 100%;
+}
+
+@media (max-width:1028px) {
+    #title {
+      height: 30rem;
+    }
+}
+
+.main-heading {
+  padding-top: 10%;
+  font-size: 5.5rem;
+  text-align: center;
+  color: #f0ece3;
+  font-weight: 100;
+  font-family: 'Fredericka the Great', cursive;
+  padding-bottom: 0;
+
+}
+
+.slogan {
+  padding-top: 0;
+  color: #f4f4f2;
+  text-align: center;
+  font-size: 1.2rem;
+  font-family: 'Arima Madurai', cursive;
+}
+
+/* Description and Gallery */
+
+#about {
+  background-color: #f0ece3;
+  padding: 5%;
+
+}
+
+.description {
+  padding: 3% 0;
+}
+
+.descrip-head {
+  font-size: 2.5rem;
+  color: #463333;
+  font-family: 'Pacifico', cursive;
+  text-align: center;
+  padding-bottom: 2%;
+
+}
+
+.descrip-info {
+  font-size: 1.5rem;
+  font-family: 'Patrick Hand';
+  text-align: center;
+}
+
+
+#photos {
+
+  background-image: url(https://www.wallpaperflare.com/static/552/777/170/wood-grain-structure-texture-wallpaper-preview.jpg);
+  background-size: 100%;
+  padding: 0 0;
+}
+
+.carousel {
+  margin: 0 20%;
+  padding: 50px 100px 50px 100px;
+}
+
+@media (max-width:1028px) {
+  .carousel {
+    margin: 0;
+  }
+}
+
+.gallery-head {
+  font-family: 'Pacifico', cursive;
+  color: #f0ece3;
+  text-align: center;
+  font-size: 2.5rem;
+  padding-top: 3%;
+}
+
+
+
+
+
+
+
+
+/* Products */
+
+#products {
+  padding: 3% 0;
+  background-color: #f0ece3;
+}
+
+.card-col {
+  padding: 3% ;
+}
+
+.prd-title {
+  font-family: 'Pacifico', cursive;
+  color: #463333;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 3% 0 3% 0;
+}
+
+.card {
+  padding: 3%;
+  width: 95%;
+  color: #f0ece3;
+  background-image: url(https://www.wallpaperflare.com/static/552/777/170/wood-grain-structure-texture-wallpaper-preview.jpg);
+}
+
+.prod-img {
+  padding-bottom:3%;
+  width:80%;
+}
+
+.card-main {
+  color: #f0ece3;
+  font-family: 'Indie Flower';
+}
+
+
+
+
+
+
+
+
+/* Order and Contact */
+
+#order {
+  padding: 3%;
+  height: 50rem;
+  background-image: url(https://www.wallpaperflare.com/static/552/777/170/wood-grain-structure-texture-wallpaper-preview.jpg);
+  background-size: 100%;
+}
+
+.order-head {
+  font-family: 'Pacifico', cursive;
+  color: #f0ece3;
+  text-align: center;
+  font-size: 2.5rem;
+  padding: 3% 0 7% 0;
+}
+
+.order-img {
+  transform: rotate(-25deg);
+  border-radius: 10%;
+  border: 10px solid #f0ece3;
+  margin: 5% 17% 0 17%;
+  max-width: 70%;
+
+}
+
+.ordering-head {
+  padding: 10% 7%;
+  text-align: center;
+  font-size: 2rem;
+  color: #f0ece3;
+  font-family: 'Patrick Hand';
+
+}
+
+.contact-icon {
+  padding: 0 10px;
+}
+
+.contact-col {
+  margin: 7%;
+}
+
+.btn {
+  padding-left: 0;
+  width: 180px;
+  text-align:center;
+}
+
+@media (max-width:1028px) {
+
+#order {
+  height: auto;
+}
+
+  .contact-row {
+    margin-left: 300px;
+  }
+
+  .order-img {
+    transform: rotate(0);
+  }
+}
+
+@media (max-width:650px) {
+  .contact-row {
+    margin-left: 120px;
+  }
+}
+
+
+
+
+
+
+
+
+/* Footer */
+
+
+
+#footer {
+  text-align: center;
+  background-color: #f0ece3;
+  padding: 7% 0 0 0;
+  font-family: 'Patrick Hand';
+}
+
+.footer-icon {
+  color: #463333;
+  display: inline-block;
+  padding: 0 1%;
+}
+
+.copyrights {
+  padding-top: 15px;
+  color: #463333;
+}
+
+.credits {
+  text-align: center;
+  color: #463333;
+  font-family: 'Patrick Hand';
+  padding: 3% 0 0 0;
+}
