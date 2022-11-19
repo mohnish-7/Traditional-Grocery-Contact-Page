@@ -4,6 +4,6 @@ This is a contact website that I had created for an organic grocery store. This 
 
 Website: https://traditionalgrocery.netlify.app/
 
-© Copyright 2021, Mohnish
+© Copyright 2022, Mohnish
 
 
